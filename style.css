@@ -1,0 +1,52 @@
+/* Custom Properties */
+:root {
+    --ff-lato: 'Lato', sans-serif;
+    --fw-reg: 300;
+    --fw-bold: 900;
+    --clr-dark: #1f1f1f;
+    --clr-light: #ffffff;
+    --clr-grey: #666666;
+    --clr-accent: #448ee5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: var(--ff-lato);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    width: 5em;
+}
+
+main h4 {
+    text-align: center;
+    margin-top: 1em;
+}
