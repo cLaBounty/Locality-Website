@@ -26,15 +26,16 @@ html {
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    font-family: var(--ff-lato);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: var(--ff-lato);
 }
 
+/* Main */
 main {
     display: flex;
     flex-direction: column;
@@ -42,11 +43,39 @@ main {
     align-items: center;
 }
 
-main img {
-    width: 5em;
+#download-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-main h4 {
+.download-btn {
+    height: 5em;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+footer li {
+    display: inline-block;
     text-align: center;
-    margin-top: 1em;
+    margin: auto 1.5em;
+}
+
+footer li a {
+    color: var(--clr-light);
+    text-decoration: none;
 }

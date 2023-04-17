@@ -12,19 +12,27 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="assets/locality_logo.png">
-
     <title>Locality</title>
+    <link rel="icon" href="assets/locality_logo.png">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <main>
-        <img src="assets/locality_logo.png">
-        <h4>Initial website for Locality</h4>
-    </main>
+        <h1>Locality</h1>
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <div id="download-btns">
+            <img class="download-btn" src="assets/app-store-badge.svg" onclick="onAppStoreDownloadClicked()">
+            <img class="download-btn" src="assets/google-play-badge.png" onclick="onGooglePlayDownloadClicked()">
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a target="_blank" href="mailto:locality.mail@gmail.com">Support</a></li>
+            <li><a target="_blank" href="assets/terms-of-service.pdf">Terms of Service</a></li>
+            <li><a target="_blank" href="assets/privacy-policy.pdf">Privacy Policy</a></li>
+        </ul>
+    </footer>
 
     <script type="text/javascript" src="main.js"></script>
 </body>
